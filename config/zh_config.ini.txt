@@ -1,0 +1,21 @@
+[DEFAULT]
+language = chinese
+data_dir_path = ./data/zh_qa_bank.txt
+doc_encoding = utf-8
+stop_words_path = ./data/stop_words/en.txt
+stop_words_encoding = utf-8
+db_path = ./data/database/zh_with_stop_words
+k1 = 1.5
+b = 0.75
+n = 7117
+avg_l = 8.470282422368976
+hot_k1 = 1.0
+hot_k2 = 1.0
+scheme = A
+es_method = q
+recall_method = BM25L
+rank_model = v1_marco_ce
+rank_method = qa
+score_method = rank
+
+
