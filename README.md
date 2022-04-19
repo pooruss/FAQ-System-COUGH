@@ -22,6 +22,8 @@
 
 #### Requirements:
 
+python 3.7
+
 - nltk==3.7
 - numpy==1.19.3
 - paddlepaddle-gpu==2.2.2.post111
